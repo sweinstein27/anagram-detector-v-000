@@ -8,7 +8,7 @@ class Anagram
   def match(words)
     if words.split("").sort = words.sort
       true
-    else 
+    else
       false
     end
 end
