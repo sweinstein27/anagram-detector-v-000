@@ -5,11 +5,16 @@ class Anagram
     @word = word
   end
 
-  def match(words)
-    if words.split("").sort = words.sort
-      true
-    else
-      false
+  def match(anagram)
+    anagram.all? do |word|
+      if word.split("").sort == self.word_to_analyze.split("").sort   
+        word 
+      end
     end
+  end
+
 end
-end
+
+
+
+  
